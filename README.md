@@ -37,7 +37,7 @@ The Collaborative Cloud Code Editor is a tool that lets developers edit code tog
 - **Frontend**: TypeScript, React
 - **Database**: SQLite
 - **Containerization**: Docker
-- **Cloud Services**: AWS, Cloudflare
+- **Cloud Services**: Cloudflare
 
 ---
 
