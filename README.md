@@ -73,11 +73,6 @@ Start the backend:
 
 ```bash
    cd backend
-   npm install
-```
-
-```bash
-   cd backend
    npm start
 ```
 Start the frontend:
