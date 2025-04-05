@@ -47,43 +47,52 @@ The Collaborative Cloud Code Editor is a tool that lets developers edit code tog
    ```bash
    git clone https://github.com/your-username/ccce.git
    cd ccce
+   
 Install dependencies:
 
 For the backend:
 
-bash
-Copy
-cd backend
-npm install
+```bash
+   cd backend
+   npm install
+```
+
 For the frontend:
 
-bash
-Copy
-cd ../frontend
-npm install
+```bash
+   cd ../frontend
+   npm install
+```
+
 Configure Environment Variables:
 
-Create a .env file in both the backend and frontend directories (refer to .env.example for guidance).
-
-Run the Application:
+- Create a .env file in both the backend and frontend directories (refer to .env.example for guidance).
+- Run the Application:
 
 Start the backend:
 
-bash
-Copy
-cd backend
-npm start
+```bash
+   cd backend
+   npm install
+```
+
+```bash
+   cd backend
+   npm start
+```
 Start the frontend:
 
-bash
+```bash
+   cd ../frontend
+   npm start
+```
 Copy
-cd ../frontend
-npm start
-Using Docker:
 
-bash
-Copy
-docker-compose up --build
+Using Docker:
+```bash
+   docker-compose up --build
+```
+
 Usage 💻
 Open your browser and go to http://localhost:3000 (or the port you’ve configured).
 
@@ -97,21 +106,21 @@ We welcome contributions! To get started:
 Fork the repository.
 
 Create a new branch:
+```bash
+   git checkout -b feature/YourFeature
+```
 
-bash
-Copy
-git checkout -b feature/YourFeature
 Commit your changes:
 
-bash
-Copy
-git commit -m 'Add new feature'
+```bash
+   git commit -m 'Add new feature'
+```
+
 Push to your branch:
 
-bash
-Copy
-git push origin feature/YourFeature
-Open a Pull Request for review.
+```bash
+   git push origin feature/YourFeature
+```
 
 Please follow the existing code style and include tests where possible.
 
