@@ -81,7 +81,6 @@ Start the frontend:
    cd ../frontend
    npm start
 ```
-Copy
 
 Using Docker:
 ```bash
