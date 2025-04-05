@@ -1,4 +1,4 @@
-# Collaborative Cloud Code Editor 🎉
+# CodeWithMe 🎉
 
 Welcome to the Collaborative Cloud Code Editor! This full-stack application lets multiple users work on code together in real time. Built with solid API design principles, it’s designed for maintainability and easy updates.
 
